@@ -1,0 +1,25 @@
+name: hello_world_mobx_flutter
+description: Developer - Antônio Izaias
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  flutter_mobx: ^1.1.0+2
+  mobx: ^1.2.1+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.10.4
+  mobx_codegen: ^1.1.2
+
+flutter:
+  uses-material-design: true
